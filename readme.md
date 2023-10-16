@@ -1,5 +1,9 @@
 # Rendu pour le TP1 + TP2 Dynamique des Connaissances
 
+## Membres:
+- NGUYEN Viet Anh
+- BOURNIER Jocelyn
+
 ## Des fichiers importants:
 - Contexte JSON-LD : Fichier "ctx.json"
 - Trace brute: Fichier "scrapped.json"
