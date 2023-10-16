@@ -1,0 +1,63 @@
+{ "@context" : {
+        "ex": "http://example.com/ns#",
+        "s": "http://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "created_at": {
+            "@id" : "s:startDate",
+            "@type" : "xsd:dateTimeStamp"
+        },
+        "closed_at": {
+            "@id" : "s:endDate",
+            "@type" : "xsd:dateTimeStamp"
+        },
+        "login": {
+            "@id" : "s:accountID",
+            "@type" : "xsd:string"
+        },
+        "title": {
+            "@id" : "s:name",
+            "@type" : "xsd:string"
+        },
+        "body": {
+            "@id" : "s:description",
+            "@type" : "xsd:string"
+        },
+        "author_association": {
+            "@id" : "ex:authorAssociation",
+            "@type" : "xsd:string"
+        },
+        "number": {
+            "@id" : "s:identifier",
+            "@type" : "xsd:integer"
+        },
+        "html_url" : {
+            "@id" : "s:url",
+            "@type" : "xsd:anyURI"
+        },  
+        "name": {
+            "@id" : "s:name",
+            "@type" : "xsd:string"
+        },
+        "description": {
+            "@id" : "s:description",
+            "@type" : "xsd:string"
+        },
+        "state": "@type",
+        "open": "ex:OpenIssue",
+        "closed": "ex:ClosedIssue",
+        "url": "@id",
+        "type": "@type",
+        "User": "ex:User",
+        "user": "s:creator",
+        "assignees": "ex:assignees",
+        "labels": "ex:label",
+        "repository_url": {
+            "@reverse" : "ex:issue",
+            "@type" : "@id"
+        },
+        "issue_url": {
+            "@reverse" : "ex:comment",
+            "@type" : "@id"
+        }
+    }
+}
