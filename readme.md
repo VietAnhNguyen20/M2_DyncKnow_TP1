@@ -9,4 +9,4 @@
 - Lien de Github:
 https://github.com/pchampin/sophia_rs
 
-- Nous avons eu des soucis avec GraphDB pour
+- Nous avons eu des soucis avec GraphDB pour l'import, (erreur de HeapMemory) mais la validation SHACL en local (avec script) marche et valide complètement le fichier généré.
