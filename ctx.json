@@ -11,7 +11,7 @@
             "@type" : "xsd:dateTimeStamp"
         },
         "login": {
-            "@id" : "s:accountID",
+            "@id" : "s:accountId",
             "@type" : "xsd:string"
         },
         "title": {
